@@ -5,19 +5,19 @@
 #
 
 # Inherit from common mithorium-common
-include device/xiaomi/mithorium-common/BoardConfigCommon.mk
+include device/xiaomi/mithorium-common-4.19/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/mi439_4_19
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
-TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/mi439/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium-4.19/mi439/Image.gz-dtb
 
 # Kernel - DTBO
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/kernel-mithorium/mi439/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/kernel-mithorium-4.19/mi439/dtbo.img
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
