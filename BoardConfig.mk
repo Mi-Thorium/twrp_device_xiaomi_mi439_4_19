@@ -7,7 +7,7 @@
 # Inherit from common mithorium-common
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mi439
+DEVICE_PATH := device/xiaomi/mi439_4_19
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1

@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_RELEASE_NAME := mi439
+PRODUCT_RELEASE_NAME := mi439_4_19
 
-# Inherit from mi439 device
-$(call inherit-product, device/xiaomi/mi439/device.mk)
+# Inherit from mi439_4_19 device
+$(call inherit-product, device/xiaomi/mi439_4_19/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
